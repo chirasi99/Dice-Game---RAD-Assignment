@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <img src="./main.jpg" alt="image of dice player">
+        <h1>Welcome to Dice Master </h1>
+        <h3 id="displaytitle">Playing with dice - Win the game - Be a DICE MASTER <br>First turn to Player 1</h3>
+        <input type="button" class="rolldice" value="Roll" onClick="rollTheDice()">
+    </header>
+
+
+    <div class="dice">
+        <img class="img1" src="dice_6.png">
+    </div>
+
+    <div class="dice">
+        <img class="img2" src="dice_6.png">
+    </div>
+
+    <img src="./player1.jpg" alt="player1 image" id="pl1">
+    <img src="./player2.jpg" alt="player2 image" id="pl2">
+    <p id="player1name">Player1</p>
+    <p id="player2name">Player2</p>
+
+    <p id="player1marks">00</p>
+    <p id="player2marks">00</p>
+
+
+    <footer id="frt">
+        <marquee>Copyright &copy; 2022 Dice Master</marquee>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+
+</html>

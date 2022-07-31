@@ -1,0 +1,144 @@
+body{
+    background:teal;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header img{
+    width: 10%;
+    height: auto;
+    margin: 50px 45% 0 45%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+header h1{
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size :3em;
+    font-weight: 300;
+    text-shadow: 5px 5px 8px rgba(239, 240, 232, 0.823);;
+}
+
+header h3{
+    text-align: center;
+    font-size:2em;
+    color: rgb(152, 18, 18);
+}
+
+.rolldice{
+    background-image: linear-gradient(to right, rgb(241, 3, 3) , rgb(245, 245, 5),rgb(241, 3, 3));
+    padding :10px 5px;
+    color: black;
+    width :150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    border-radius:10px ;
+    font-weight: 600;
+    margin: 50px 45% 0 45% ;
+    font-size: 1.5rem;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: auto;
+    margin-left: 350px;
+    margin-top: -80px;
+}
+
+.img2{
+    float: right;
+    width: 15%;
+    height: auto;
+    margin-top: -215px;
+    margin-left: 300px;
+
+}
+
+#pl1{
+  display: flex;
+  margin-top: -250px;
+  margin-left: 180px;
+  
+   
+}
+
+#pl2{
+  float: right;
+  margin-top: -210px;
+  margin-right: 200px;
+
+}
+
+
+#player1marks{
+    margin-top: -30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+    margin-left: 250px;
+    text-align: center;
+    font-size: 2.5rem;
+  
+
+}
+    
+#player2marks{
+    float: right;
+    margin-top: -100px;
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+    margin-right: 280px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+    
+
+#player1name{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+#player2name{
+    float: right;
+    margin-top: -65px;
+    width: 150px;
+    height: 50px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+#frt{
+    background-color:rgb(99, 190, 190);
+    color:rgb(53, 49, 49);
+    font-weight: 800;
+    width: 100%;
+    margin-top:-23px;
+    height: 30px;
+}
+
